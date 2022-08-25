@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isHTMLElementSupported(elm) {
+        return (Object.prototype.toString.call(document.createElement(elm)) !== '[object HTMLUnknownElement]');
+    };
+    alert(isHTMLElementSupported("fs"))
+</script>
+</body>
+</html>

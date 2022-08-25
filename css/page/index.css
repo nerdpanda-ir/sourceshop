@@ -1,2 +1,67 @@
 @import url("../lib/bootstrap.css");
-@import url('../components/welcome.css');
+@import url("../lib/error.css");
+body{
+    font-family: "vazir-regular";
+    direction: rtl;
+}
+/*---------------- top header ------------------*/
+    #topheader{
+        height:160px;
+        border-bottom: darkred 2px solid ;
+    }
+    /*------------- top nav code ------------*/
+        nav#topNav{
+            background: #1b1b1b;
+            height: 40px;
+
+        }
+        /*------------- top list style ------------*/
+            /*---------- list item style -------------*/
+                nav#topNav>.container>ul>li {
+                    display: inline-block;
+                    height: 100%;
+                    margin-left: 5px;
+                    transition: background-color 800ms;
+                }
+            /*---------- list item style -------------*/
+
+            /*----------hover list item -------------*/
+                nav#topNav>.container>ul>li:hover{
+                    transition: background-color 800ms;
+                    background: #484848;
+                }
+            /*----------hover list item -------------*/
+            /*---------- link style -------------*/
+                nav#topNav>.container>ul>li > a{
+                    padding: 4px 15px;
+                    display: inline-block;
+                    color: white;
+
+                }
+            /*---------- list item style -------------*/
+
+            /*---------- icon menu style -------------*/
+                nav#topNav>.container>ul>li > a {
+                    height: 100%;
+                    box-sizing: border-box;
+                }
+                nav#topNav>.container>ul>li > a .topNavIconWrapper{display: inline-block; float: right}
+                 nav#topNav>.container>ul>li > a .topNavIconWrapper i{font-size: 16px;    vertical-align: -3px;    margin-left: 10px;}
+                 nav#topNav>.container>ul>li > a .topNavIconWrapper img{
+                     margin-left: 10px;
+                     display: inline-block;
+                     width: 32px;
+                     position: relative;
+                     bottom: 1px;
+
+                 }
+            /*---------- icon menu style -------------*/
+                nav#topNav>.container>ul strong{
+                    font-weight: normal !important;}
+
+        /*------------- top list style ------------*/
+    /*------------- top nav code ------------*/
+
+
+
+/*---------------- top header ------------------*/

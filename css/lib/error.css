@@ -1,0 +1,58 @@
+.NotesWrapper {
+    padding: 4px 6px;
+    padding: 15px;
+    display: inline-block;
+    padding-right: 80px;
+}
+.alertBoxPage{
+    position: relative;
+}
+
+.NotesIcon .fas,.fa{
+    top: 25%;
+    position: relative;
+}
+
+.NotesIcon{
+    display: inline-block;
+    width: 35px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    font-size:22px;
+    text-align: center;
+
+}
+.danger .NotesIcon{
+    background: #a94442;
+    color: #f2dede;
+}
+.danger {
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+.success .NotesIcon{background-color:#3c763d; color:  #dff0d8}
+.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+.info .NotesIcon{
+    background-color:#31708f ;
+    color:#d9edf7 ;
+}
+.info {
+    background-color:#d9edf7;
+    color: #31708f;
+}
+
+
+.warning .NotesIcon{
+    background-color:  #8a6d3b;
+    color:  #fcf8e3;
+}
+.warning {
+    background-color: #fcf8e3;
+    color:  #8a6d3b;
+}
